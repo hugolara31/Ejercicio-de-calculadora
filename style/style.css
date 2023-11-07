@@ -1,0 +1,70 @@
+body{
+    background-image: url(/assets/img/Gradient.png);
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    font-size: 36px;
+    color: orangered;
+}
+    
+#app{
+    height: 430px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px ;
+    box-shadow: 5px 5px 10px 2px rgba(112, 112, 112, 0.5);
+    background-color: rgb(162, 162, 162);
+    margin: 10px 0;
+    padding: 20px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+#app form{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    box-shadow: 5%;
+}
+#app input[type=textfield]{
+    width: 89.6%;
+    height: 25%;
+    cursor: default;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+}
+#app input[type=button], input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    margin: 3px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 26px;
+    border: 0;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+
+#app .gradient{
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%) !important;
+    color: black;
+}
+#app .green{
+    background-color: green !important;
+    color: white !important;
+}
