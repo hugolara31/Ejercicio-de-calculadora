@@ -1,10 +1,13 @@
-function suma (a,b,callback){
-    let c = a +b;
-    callback()
+function agregar(valor){
+    document.getElementById('pantalla').value += valor
 }
 
-function Callback() {
-    console.log("La suma se ha calculado.");
-  }
-  
-  suma(2, 3, Callback);
+function borrar(){
+    document.getElementById('pantalla').value = ''
+}
+
+function calcular(){
+    const valorPantalla = document.getElementById('pantalla').value
+    const resultado = eval(valorPantalla)
+    document.getElementById('pantalla').value = resultado
+}
